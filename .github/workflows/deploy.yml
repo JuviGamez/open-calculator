@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Install framer-motion and styled-components
+        run: npm install framer-motion styled-components
+
       - name: Build project
         run: npm run build
 
